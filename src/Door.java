@@ -11,7 +11,7 @@ public class Door {
 
 	public Door (int Roomid, String Roomname, String password, ArrayList<Integer> users)
 	{
-		Process D =new Process(1,Roomid,Roomname,1024);
+		Process D = new Process(1,Roomid,Roomname,1024);
 		this.id=id++;
 		this.Roomid=Roomid;
 		this.password=password;
@@ -57,11 +57,7 @@ public class Door {
 	public static void main(String[] args) throws InterruptedException
 	{
 		
-//	Door x = new Door(5,"H11","abc");
-//	Scanner sc=new Scanner(System.in);
-//String p = sc.nextLine();
-//System.out.println(p);
-//x.open(p);
+
 	}
 
 }
